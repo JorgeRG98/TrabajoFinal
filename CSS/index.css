@@ -1,0 +1,83 @@
+body{
+      font-family: gabriola;
+}
+header, main,section,footer, .manu{
+      width: 90%;
+      margin:20px auto;
+      max-width: 1000px;
+}
+
+th {
+      color: rgb(0, 0, 0);
+      border:1px solid #000000 ;
+   }
+
+td {
+      border:1px solid #000000 ;
+   }
+
+
+p {
+      margin:20px 30px;
+      width: 98%;
+      background:rgb(224, 241, 245);
+  }
+footer {
+     background: rgb(224, 241, 245);
+     text-align: center;
+     
+
+     
+}
+
+
+
+div{
+
+      display: inline-block;
+  }
+
+  
+
+  .manu{
+        background: #e9e646;
+        width: 280px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        
+        
+  }
+   .manu li {
+                border-bottom: 1px solid rgba(255,255,255, .3);
+                display:inline-block;
+                
+             }
+
+
+             .manu li a{
+                   display: block;
+                   padding: 15px;
+                   color: #fff;
+                   text-decoration: none;
+             }
+
+      body{
+            background: url(../holas.jfif);
+      }
+      
+      
+      .manu li a:hover{
+            background: #b2e63b;
+             }
+
+                  div{
+
+                        display: inline-block;
+                    }
+                  
+      
+      
+
+
+       
