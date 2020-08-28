@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <script>
+      alert("Este programa calcula cuanto debe cobrar un estacionamiento al cliente");
+      var horas = prompt("Cuantas horas estuvo?");
+      if (horas <= 2) {
+         var a = horas*5;
+         alert("Usted debe de pagar:"+a+"pesos");  
+      }
+      else if (horas <= 5) {
+         var a = horas-2
+         var b = a*4+10;
+         alert("Usted debe pagar:"+b+"pesos");
+      }
+      else if (horas <= 10) {
+         var a = horas-5;
+         var b = a*3+22;
+         alert("Usted debe pagar:"+b+"pesos");
+      }
+      else {
+       var a = horas-10;
+       var b = a*2+37;
+       alert("Usted debe pagar:"+b+"pesos");
+      }
+   </script>
+ 
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    alert ("este programa calcula en costo de N hamburguesas diferentes en EL NAUFRAGO SATISFECHO");
+        var HamburguesaS = prompt("Cuantas hamburguesas sencillas pidio?");
+        var hamburguesaD = prompt("Cuantas hamburguesas dobles pidio?");
+        var hamburguesaT = prompt("Cuantas hamburguesas triples pidio?");
+        var a = HamburguesaS*20;
+        var b = hamburguesaD*25;
+        var c = hamburguesaT*28;
+        var subtotal = a+b+c;
+        var cargo = subtotal*.5;
+        var total = subtotal+cargo;
+        var tarjeta = prompt("Pagara con tarjeta? (Si la respuesta es SI, favor de poner 1. Si su respuesta es NO poner un 0)");
+        if (tarjeta == 1) {
+            alert("El subtotal de su compra es:"+subtotal+" + cargos a su tarjeta de:"+cargo+" Usted pago:"+total+"pesos");
+        } else {
+            alert("El total de su compra es:"+subtotal);
+        }
+    </script>
+</html>

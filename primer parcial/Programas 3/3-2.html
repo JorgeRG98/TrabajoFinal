@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <script>
+      alert("Este programa calcula el sueldo de una persona si trabaja o no horas extras");
+      var horas = prompt("Cuantas horas trabajo?");
+      var sueldo = prompt("cuanto le pagan por hora?");
+      if (horas < 41) {
+         var a = horas*sueldo;
+         alert("su pago es de:"+a+"pesos");  
+      }
+      else {
+          var b = horas-40;
+          var c = sueldo*40;
+          var d = b*sueldo*2;
+          var e = c+d;
+          alert("su pago es de:"+e+"pesos");
+      }  
+   </script>
+ 
+</html>

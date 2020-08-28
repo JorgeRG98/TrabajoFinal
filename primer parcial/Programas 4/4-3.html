@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    alert ("este programa calcula de N cantidades cuantas son mayores, iguales o menores a 0");
+        var cantidad = prompt("Cuantas cantidades son?");
+        var tiempo = 0;
+        var contador1 = 0
+        var contador2 = 0
+        var contador3 = 0
+        while(tiempo < cantidad){
+            var numero = prompt("Introduce la cantidad");
+            if (numero < 0) {
+                contador1 = contador1+1;
+            }
+            else if (numero == 0) {
+                contador2 = contador2+1;
+            }
+            else{
+                contador3 = contador3+1;
+            }
+            tiempo = tiempo+1;
+        }
+        alert("Hay "+contador1+" numeros menores a 0, "+contador2+" numeros iguales a 0, y "+contador3+" numeros mayores a 0 ");      
+    </script>
+</html>

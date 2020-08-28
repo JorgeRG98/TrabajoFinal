@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    alert ("este programa calcula el incremento de salario de un trabajador");
+        var salarioI = 1500;
+        var incremento = 0;
+        var tiempo = 0;
+        var salarioP;
+        while(tiempo < 6){
+            salarioP = salarioI+incremento;
+            document.write("Su salario del periodo es:"+salarioP+"pesos. Su incremento es de:"+incremento+"pesos");
+            incremento = (salarioP*.1);
+            salarioI = salarioP;
+            tiempo = tiempo+1;
+        }
+            
+    </script>
+</html>

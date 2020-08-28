@@ -1,0 +1,31 @@
+body{
+    font-family: gabriola;
+}
+main,section {
+    width: 60%;
+    margin:20px auto;
+    max-width: 1000px;
+}
+header{
+    width: 140%;
+    margin: 40px auto;
+    max-width: 400px;
+
+}
+
+section{
+    background: rgb(236, 7, 7);
+}
+nav{
+    background: url(../Textura.jpg);
+    width: 400;
+    max-width: auto;
+    color: rgb(10, 10, 10);
+}
+footer {
+    width: auto;
+    color: white;
+    text-align: center;
+    background: url(../holas.jfif);
+
+}

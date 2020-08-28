@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    alert ("este programa calcula el ahorro de una persona al dia y en un ano");
+        var ahorroI = 0;
+        var incremento = .03;
+        var tiempo = 1;
+        var ahorroF;
+        while(tiempo < 366){
+            ahorroF = ahorroI+incremento;
+            document.write("El ahorro de el dia "+tiempo+" es de:"+ahorroF+"pesos. Su incremento es de:"+incremento+"pesos ");
+            incremento = incremento*3;
+            ahorroI = ahorroF;
+            tiempo = tiempo+1;
+        }
+        document.write("en un ano ahorro:"+ahorroF+"pesos")
+            
+    </script>
+</html>
